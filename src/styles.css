@@ -1,0 +1,72 @@
+.App {
+  /* Styling for the entire application */
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* Importing the Montserrat font from Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+body {
+  /* Styling for the body element */
+  font-size: 16px;
+  color: #404040;
+  font-family: Montserrat, sans-serif;
+  background-image: linear-gradient(to bottom right, #ff9eaa 0% 65%, #e860ff 95% 100%);
+  background-position: center;
+  background-attachment: fixed;
+  margin-bottom: 0;
+  padding: 2rem;
+  display: grid;
+  place-items: center;
+  box-sizing: border-box;
+  display: grid;
+}
+
+.card {
+  /* Styling for the card component */
+  background-image: linear-gradient(to bottom right, #ff9eaa 0% 65%, #e860ff 95% 100%);
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 2rem;
+  box-shadow: 0px 1rem 1.5rem rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+
+.card .banner {
+  /* Styling for the banner section within the card */
+  background-image: url(https://johannesippen.com/img/blog/humans-not-users/header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 11rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+
+.name {
+  /* Styling for the name heading within the card */
+  text-align: center;
+  padding: 0 2rem 0.5rem;
+  margin: 0;
+  text-shadow: 1cm;
+  text-shadow: #ffffff;
+}
+
+.card .title {
+  /* Styling for the title section within the card */
+  color: #808080;
+  font-size: 0.85rem;
+  text-align: center;
+  padding: 0 2rem 1.2rem;
+}
+
+/* delet the dots form unordered lists */
+ul {
+  list-style-type: none;
+}
